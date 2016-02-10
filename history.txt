@@ -1,0 +1,191 @@
+$EDITOR
+$PATH
+.
+..
+../..
+/bin/echo $PATH
+atom .
+atom .atom
+atom .npm
+atom notes.txt
+atom notes.txt
+atom open .
+atom open .config/fish/functions
+atom ~/.config/fish/config.fish
+atom ~/Desktop/test.js
+brew doctor
+brew info fish
+brew install fish
+brew install git
+brew install node
+brew install tree
+brew update
+cat history
+cat notes.txt
+cat notes.txt
+cat notes.txt | sort
+
+# takes user to home directory
+cd
+
+# takes user to the parent directory
+cd ..
+cd ../
+
+cd ../Applications
+cd .config/fish/functions
+cd /
+cd /Users/dgravelle
+cd /Users/dgravelle/
+cd Cookies/
+cd Favorites/
+cd Library
+cd Library/
+cd Users/dgravelle
+cd _g-week1
+cd bin
+cd desktop
+cd dgravelle.surge.sh
+cd jQuery-practice
+cd js
+cd notebook
+cd playground
+cd playground/_g-week1/
+cd prework
+cd ~/desktop
+cd ~/playground
+chsh -s /usr/local/bin/fish
+curl -fsSL https://git.io/vgqFH | sh
+curl -fsSL https://git.io/vgqFU | ruby
+curl -fsSL https://git.io/vgqFU | sh
+curl -fsSl https://git.io/vgqFU | ruby
+
+# displays a line of text ( similar to console.log )
+echo $EDITOR
+echo $PATH
+echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
+echo notes.txt
+echo ~
+fish_update_completions
+git --version
+git add CNAME
+git add index.html
+git commit -m 'added CNAME'
+git commit -m 'adding index for a tiny web page'
+git config --global user.email 'dgravelle54@gmail.com'
+git config --global user.name 'Dave Gravelle'
+git init
+
+# displays all commands entered into terminal
+## also allows user to manipulate history results
+
+history
+history > notes.txt
+history >> notes-2.txt
+history >> notes.txt
+history cat notes.txt
+history | sort
+history | sort > notes.txt
+
+
+lh
+
+# shorthand for "ls -lh"
+ll
+
+# shows all files in a directory
+ls
+
+# shows all files in a directory including hidden files beginning with a period
+ls -a
+
+ls
+ls -F
+ls -G
+ls -L
+ls -R
+ls -a
+ls -at
+ls -c
+ls -c -l
+ls -f
+ls -h
+ls -i
+ls -l
+ls -l -c
+ls -lh
+ls -lt
+ls -lv
+ls -r
+ls -t
+ls -v
+ls -vl
+ls .config
+ls .config/fish
+ls man
+ls | sort
+ls ~/Desktop
+ls ~/Desktop/test.js
+ma ls
+man history
+man ls
+man tree
+man whoami
+mkdir _g-week1
+mkdir dgravelle.surge.sh
+mkdir notebook
+mkdir prework
+node
+node
+node  ~/Desktop/test.js
+node -v
+node ~/Desktop/test.js
+npm
+npm install -g surge
+open .
+open ./
+open /Desktop
+open /Desktop/
+open /Users/
+open index.html
+open ~
+open ~ /Desktop
+open ~ /Desktop/
+open ~/Desktop
+open ~/Pictures
+pwd
+rm notes-2.txt
+rm notes.txt
+rm notes.txt
+rm test.txt
+rm ~/Desktop/test.js
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+shout $PATH
+sude xcodebuild -license
+sudo xcodebuild -license
+surge
+surge -V
+touch CNAME
+touch index.html
+touch notes.txt
+touch test.txt
+tree
+tree -L
+tree -L 1
+tree -L 2
+tree -a
+uname
+which echo
+which git
+which whoami
+whoami
+history | grep git
+history | grep ls
+history | grep history
+
+# grep searches for matching strings
+
+grep 'man' notes.txt
+grep man notes.txt
+grep ls notes.txt
+man grep
